@@ -1,0 +1,4 @@
+valueIteration.o: valueIteration.cpp
+easy21.o: easy21.cpp
+random_walk.o: random_walk.cpp
+blackjack.o: blackjack.cpp

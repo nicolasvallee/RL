@@ -1,0 +1,28 @@
+.wrapper{
+    max-width: 1000px;
+    max-height 1000px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgb(212, 243, 243);
+}
+
+.slidecontainer{
+    width: 100%;
+}
+
+.slider:hover {
+    opacity: 0; /* Fully shown on mouse-over */
+}
+
+.slider::-moz-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: auto;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  

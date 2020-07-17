@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+        
+        <div class="wrapper"> 
+            <canvas id="walk_chart"></canvas>
+        </div>
+
+        
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="sider" id="mySlider">
+            <p>Number of episodes: <span id="demo"></span></p>
+        </div>
+
+        <button onclick="execute_program()">Run test</button> 
+        
+        <script src="main.js"></script>
+    </body>
+
+</html>

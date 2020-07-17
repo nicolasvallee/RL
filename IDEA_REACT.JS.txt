@@ -1,0 +1,1 @@
+IDEA for the random_walk: do a user-interface with REACT.JS that displays the graph value(state) and that lets you modify the alpha and discounts parameters 
