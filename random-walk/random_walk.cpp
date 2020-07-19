@@ -143,7 +143,7 @@ int main()
 
     //TD0();
     //first_visit_MC();
-    TD_lambda_backward();
+    //TD_lambda_backward();
     for(int i = 0; i < 7; i++)
             cout << " " << value[i];
         cout << '\n';

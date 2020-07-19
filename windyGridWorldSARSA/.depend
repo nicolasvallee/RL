@@ -1,0 +1,2 @@
+main.o: main.cpp Action.hpp Position.hpp
+Action.o: Action.cpp
